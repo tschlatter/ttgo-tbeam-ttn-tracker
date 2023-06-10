@@ -1,4 +1,4 @@
-## TTGO T-Beam Tracker for The Things Network
+## TTGO T-Beam Tracker for The Things Network on PlatformIO
 
 Forked from kizniche/ttgo-tbeam-ttn-tracker
 
