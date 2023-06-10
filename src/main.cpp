@@ -21,12 +21,14 @@
 
 */
 
+#include "general.h"
 #include "configuration.h"
 #include "rom/rtc.h"
 #include <TinyGPS++.h>
 #include <Wire.h>
 
 #include "axp20x.h"
+
 AXP20X_Class axp;
 bool pmu_irq = false;
 String baChStatus = "No charging";

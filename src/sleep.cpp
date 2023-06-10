@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
+#include "general.h"
+
 #include <esp_sleep.h>
 
 void sleep_interrupt(uint8_t gpio, uint8_t mode) {

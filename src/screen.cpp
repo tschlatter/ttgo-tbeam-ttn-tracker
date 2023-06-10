@@ -20,16 +20,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
+#include "general.h"
+
 #include <Wire.h>
 #include "SSD1306Wire.h"
 #include "OLEDDisplay.h"
 #include "images.h"
 #include "fonts.h"
+#include "configuration.h"
 
 #define SCREEN_HEADER_HEIGHT    14
 
 SSD1306Wire * display;
 uint8_t _screen_line = SCREEN_HEADER_HEIGHT - 1;
+
+uint32_t ttn_get_count();
 
 void _screen_header() {
     if(!display) return;

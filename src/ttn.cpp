@@ -24,6 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
+#include "general.h"
+
 #include <hal/hal.h>
 #include <SPI.h>
 #include <vector>
