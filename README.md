@@ -1,7 +1,5 @@
 ## TTGO T-Beam Tracker for The Things Network
 
-Current version: 1.2.3
-
 Forked from kizniche/ttgo-tbeam-ttn-tracker
 
 ### Changes after forking
@@ -12,6 +10,10 @@ Forked from kizniche/ttgo-tbeam-ttn-tracker
 - Changed configuration to use EU 868 MHz
 
 
+
+## Original README from kizniche (original author)
+
+Current version: 1.2.3
 
 Uploads GPS data from the TTGO T-Beam to [The Things Network](https://www.thethingsnetwork.org) (TTN) and [TTN Mapper](https://ttnmapper.org) for tracking and determining signal strength of LoRaWAN gateways and nodes.
 
