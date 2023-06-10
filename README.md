@@ -2,7 +2,16 @@
 
 Current version: 1.2.3
 
-forked from kizniche/ttgo-tbeam-ttn-tracker
+Forked from kizniche/ttgo-tbeam-ttn-tracker
+
+### Changes after forking
+
+- Renamed .ino files to .cpp
+- Moved .cpp files into src folder and .h files into include folder
+- Added general.h for function prototypes required by plattformIO
+- Changed configuration to use EU 868 MHz
+
+
 
 Uploads GPS data from the TTGO T-Beam to [The Things Network](https://www.thethingsnetwork.org) (TTN) and [TTN Mapper](https://ttnmapper.org) for tracking and determining signal strength of LoRaWAN gateways and nodes.
 
